@@ -1,5 +1,5 @@
 @include('navbar_admin.css')
-<div class="container-fluid">
+<div>
     <div class="row">
         <!-- Tombol Toggler untuk Menu di Layar Kecil -->
         <div class="col-2 d-md-none">
@@ -553,9 +553,9 @@
         </nav>
 
         <!-- Konten Utama -->
-        <main class="col-md-10 px-md-4">
+        {{-- <main class="col-md-10 px-md-4"> --}}
             <!-- Konten Anda di sini -->
-        </main>
+        {{-- </main> --}}
     </div>
 </div>
 @include('navbar_admin.js')
