@@ -1,16 +1,4 @@
 <style>
-    .dashboard_container {
-        margin-left: 25px;
-        margin-top: 20px;
-    }
-
-    .dashboard_top_text {
-        font-size: 25px;
-        font-weight: 600;
-        color: #27272E;
-        margin-bottom: 20px;
-    }
-
     .scroll_dashboard_top {
         width: 72vw;
         overflow-x: scroll;
