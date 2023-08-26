@@ -4,11 +4,11 @@
         Bee cloud robot
     </div>
     <div style="content: ''; height: 20px;"></div>
-    <canvas id="histogram"></canvas>
+    <canvas id="histogram_dashboard_row_3"></canvas>
 </div>
 
 <script>
-  const data = {
+  const data_dashboard_row_3 = {
     labels: ['Pembelian', 'Pembayaran', 'E-Commerce', 'Mutasi', 'Sukodono', 
             'Setoran', 'Pembayaran 455', 'Setoran'],
     datasets: [
@@ -33,10 +33,10 @@
     ]
   };
 
-  const ctx = document.getElementById('histogram').getContext('2d');
-  const myChart = new Chart(ctx, {
+  const ctx_dashboard_row_3 = document.getElementById('histogram_dashboard_row_3').getContext('2d');
+  const myChart_dashboard_row_3 = new Chart(ctx_dashboard_row_3, {
     type: 'bar',
-    data: data,
+    data: data_dashboard_row_3,
     options: {
       scales: {
         y: {
