@@ -14,14 +14,14 @@
     }
 
     .dashboard_text_row_2_1 {
-        font-size: 20px;
+        font-size: 1.2vw;
         font-weight: 600;
         margin-top: 10px;
         margin-left: 20px;
     }
 
     .dashboard_text_row_2_2 {
-        font-size: 14px;
+        font-size: 1.2vw;
         margin-top: 16px;
         margin-right: 14px;
         cursor: pointer;
