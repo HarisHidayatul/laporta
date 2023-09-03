@@ -40,4 +40,27 @@
     .table_dashboard_row_4 img {
         height: 1.75vw
     }
+
+    .dashboard_progress_container_row_4 {
+        position: relative;
+        margin-top: 5px;
+        width: 15vw;
+        height: 17vw;
+    }
+
+    .progress_container_row_4 {
+        position: absolute;
+        width: 15vw;
+        height: 15vw;
+    }
+    .dashboard_text_row_4_3{
+        font-size: 2.5vw;
+        font-weight: 600;
+    }
+    .dashboard_text_row_4_4{
+        font-size: 1vw;
+        margin-left: 3px;
+        font-weight: 400;
+        color: #313131;
+    }
 </style>

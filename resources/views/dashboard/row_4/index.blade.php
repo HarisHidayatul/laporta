@@ -83,5 +83,62 @@
     <div
         style="background-color: white; width: 26vw; height: 10vw; border-radius: 16px; height: 27vw; padding: 10px 15px">
         <div class="dashboard_text_row_4_1">Reimburse</div>
+        <div class="d-flex justify-content-center">
+            <div class="dashboard_progress_container_row_4">
+                <div class="progress_container_row_4" id="progress_container_row_4_1"></div>
+                <div class="progress_container_row_4" id="progress_container_row_4_2"></div>
+                <div class="progress_container_row_4" id="progress_container_row_4_3"></div>
+                <div class="d-flex justify-content-center align-items-center progress_container_row_4">
+                    <div class="dashboard_text_row_4_3">75%</div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-start align-items-center">
+            <div class="border_dashboard_container_row_2" style="background: #FF4E2F;"></div>
+            <div class="dashboard_text_row_4_4">Belum Setor</div>
+        </div>
+        <div style="content: ''; height: 0.3vw;"></div>
+        <div class="d-flex justify-content-start align-items-center">
+            <div class="border_dashboard_container_row_2" style="background: #FDBA3E;"></div>
+            <div class="dashboard_text_row_4_4">Pending</div>
+        </div>
+        <div style="content: ''; height: 0.3vw;"></div>
+        <div class="d-flex justify-content-start align-items-center">
+            <div class="border_dashboard_container_row_2" style="background: #3145FF;"></div>
+            <div class="dashboard_text_row_4_4">Sukses</div>
+        </div>
     </div>
 </div>
+
+<script>
+    var bar_dashboard_row_4_1 = new ProgressBar.Circle('#progress_container_row_4_1', {
+        strokeWidth: 15,
+        easing: 'easeInOut',
+        duration: 1400,
+        // color: '#3145FF',
+        color: '#FF4E2F',
+        trailWidth: 0,
+        svgStyle: null
+    });
+    var bar_dashboard_row_4_2 = new ProgressBar.Circle('#progress_container_row_4_2', {
+        strokeWidth: 15,
+        easing: 'easeInOut',
+        duration: 1400,
+        color: '#FDBA3E',
+        trailWidth: 0,
+        svgStyle: null
+    });
+    var bar_dashboard_row_4_3 = new ProgressBar.Circle('#progress_container_row_4_3', {
+        strokeWidth: 15,
+        easing: 'easeInOut',
+        duration: 1400,
+        // color: '#FF4E2F',
+        color: '#3145FF',
+        trailWidth: 0,
+        svgStyle: null
+    });
+
+    bar_dashboard_row_4_1.animate(1); // Number from 0.0 to 1.0
+    bar_dashboard_row_4_2.animate(0.8); // Number from 0.0 to 1.0
+    bar_dashboard_row_4_3.animate(0.5); // Number from 0.0 to 1.0
+</script>
